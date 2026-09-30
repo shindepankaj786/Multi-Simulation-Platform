@@ -1,0 +1,139 @@
+[
+  {
+    "id": "ss-latifa-start-1",
+    "character": "Latifa",
+    "state": "any",
+    "trigger_behavior": "any",
+    "text": "Honestly, I’m here to learn being new in this bank and I expect a lot from you."
+  },
+  {
+    "id": "ss-latifa-def-1",
+    "character": "Latifa",
+    "state": "defensive",
+    "trigger_behavior": "directive",
+    "text": "I can follow instructions, but when it's just 'do this, do that', it doesn't really build my confidence. I'm still learning."
+  },
+  {
+    "id": "ss-latifa-def-2",
+    "character": "Latifa",
+    "state": "defensive",
+    "trigger_behavior": "blaming",
+    "text": "I made a mistake because I wasn't fully trained on that system yet. I just wish I had more support instead of just being told I messed up."
+  },
+  {
+    "id": "ss-latifa-rec-1",
+    "character": "Latifa",
+    "state": "receptive",
+    "trigger_behavior": "supportive",
+    "text": "Thank you, that means a lot. When you give me clear direction and support, I feel much more confident in my data entry."
+  },
+  {
+    "id": "ss-latifa-rec-2",
+    "character": "Latifa",
+    "state": "receptive",
+    "trigger_behavior": "coaching",
+    "text": "I think I could try verifying the data batches twice before submission. I appreciate you asking for my ideas."
+  },
+  {
+    "id": "ss-latifa-neu-1",
+    "character": "Latifa",
+    "state": "neutral",
+    "trigger_behavior": "clarification",
+    "text": "I mean that I'm sometimes hesitant to ask for help when I get stuck on a new transaction type, and I want to know I can come to you."
+  },
+
+  {
+    "id": "ss-ahmed-neu-1",
+    "character": "Ahmed",
+    "state": "neutral",
+    "trigger_behavior": "any",
+    "text": "I've been on the customer service desk for a bit now, and I have some ideas on how we can improve the queue flow."
+  },
+  {
+    "id": "ss-ahmed-def-1",
+    "character": "Ahmed",
+    "state": "defensive",
+    "trigger_behavior": "dismissive",
+    "text": "If you don't want to hear my ideas, why should I even try to improve things around here? My previous boss made a lot of promises that were never met."
+  },
+  {
+    "id": "ss-ahmed-rec-1",
+    "character": "Ahmed",
+    "state": "receptive",
+    "trigger_behavior": "coaching",
+    "text": "I'd love to take on that extra responsibility. Having more autonomy and seeing that my ideas matter really motivates me."
+  },
+
+  {
+    "id": "ss-shamma-neu-1",
+    "character": "Shamma",
+    "state": "neutral",
+    "trigger_behavior": "any",
+    "text": "I've handled my teller station perfectly today, but I have to say, the workload distribution isn't fair. I am underpaid for what I do."
+  },
+  {
+    "id": "ss-shamma-def-1",
+    "character": "Shamma",
+    "state": "defensive",
+    "trigger_behavior": "directive",
+    "text": "I know how to do my job, you don't need to micromanage me. The issue is the salary and how others aren't pulling their weight. You are not a fair boss."
+  },
+  {
+    "id": "ss-shamma-rec-1",
+    "character": "Shamma",
+    "state": "receptive",
+    "trigger_behavior": "empathetic",
+    "text": "Thank you for actually listening to how I feel. I just want to feel valued for the hard work I put in."
+  },
+
+  {
+    "id": "ss-khaled-neu-1",
+    "character": "Khaled",
+    "state": "neutral",
+    "trigger_behavior": "any",
+    "text": "The accounts are balanced. I don't need much supervision, but honestly, I've been a bit stressed lately with some personal health concerns."
+  },
+  {
+    "id": "ss-khaled-def-1",
+    "character": "Khaled",
+    "state": "defensive",
+    "trigger_behavior": "dismissive",
+    "text": "If you are just going to brush past my concerns, we have nothing to discuss. I handle my own work anyway."
+  },
+  {
+    "id": "ss-khaled-rec-1",
+    "character": "Khaled",
+    "state": "receptive",
+    "trigger_behavior": "supportive",
+    "text": "I appreciate the reassurance. Knowing I have a supervisor I can trust gives me peace of mind to focus on the numbers."
+  },
+
+  {
+    "id": "ss-fallback-1",
+    "character": "any",
+    "state": "any",
+    "trigger_behavior": "any",
+    "text": "I'm listening. Let's keep working through this."
+  },
+  {
+    "id": "ss-fallback-2",
+    "character": "any",
+    "state": "any",
+    "trigger_behavior": "any",
+    "text": "You talk sweet but action is something else."
+  },
+  {
+    "id": "ss-fallback-3",
+    "character": "any",
+    "state": "any",
+    "trigger_behavior": "any",
+    "text": "When was the last time you gave me feedback?"
+  },
+  {
+    "id": "ss-fallback-4",
+    "character": "any",
+    "state": "any",
+    "trigger_behavior": "any",
+    "text": "My problem existed since you have joined and you did nothing so far?"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "adv-khaled-start",
+    "character": "Khaled",
+    "state": "any",
+    "trigger_behavior": "any",
+    "text": "Where are we going with this now? I think we are wasting our time."
+  },
+  {
+    "id": "adv-khaled-def-1",
+    "character": "Khaled",
+    "state": "defensive",
+    "trigger_behavior": "directive",
+    "text": "I don’t have time today to listen to your sales pitch. Just send me an email."
+  },
+  {
+    "id": "adv-khaled-def-2",
+    "character": "Khaled",
+    "state": "defensive",
+    "trigger_behavior": "blaming",
+    "text": "Even your seniors will agree with me if I tell them, so I will still keep all my other options opened because I don’t trust you."
+  },
+  {
+    "id": "adv-latifa-neu-1",
+    "character": "Latifa",
+    "state": "neutral",
+    "trigger_behavior": "any",
+    "text": "I am scared to change based on your encouragement I need guarantees."
+  },
+  {
+    "id": "adv-latifa-def-1",
+    "character": "Latifa",
+    "state": "defensive",
+    "trigger_behavior": "vague",
+    "text": "I need more reassurances; you don’t sound convincing or confident at all."
+  },
+  {
+    "id": "adv-ahmed-neu-1",
+    "character": "Ahmed",
+    "state": "neutral",
+    "trigger_behavior": "any",
+    "text": "My customer speak badly about our department. Why should I care if nobody else does?"
+  },
+  {
+    "id": "adv-ahmed-def-1",
+    "character": "Ahmed",
+    "state": "defensive",
+    "trigger_behavior": "directive",
+    "text": "Your style is annoying me. Why try when everyone is badmouthing you in the company?"
+  },
+  {
+    "id": "adv-shamma-neu-1",
+    "character": "Shamma",
+    "state": "neutral",
+    "trigger_behavior": "any",
+    "text": "I heard you're changing the schedules again. Nobody trusts this management team anymore."
+  },
+  {
+    "id": "adv-shamma-def-1",
+    "character": "Shamma",
+    "state": "defensive",
+    "trigger_behavior": "dismissive",
+    "text": "If you are just going to ignore my valid concerns, I want to talk to our area manager."
+  },
+  {
+    "id": "adv-any-def-1",
+    "character": "any",
+    "state": "defensive",
+    "trigger_behavior": "vague",
+    "text": "I want to talk to our area manager. You're avoiding the real issue."
+  },
+  {
+    "id": "adv-any-rec-1",
+    "character": "any",
+    "state": "receptive",
+    "trigger_behavior": "coaching",
+    "text": "Fine. If you actually guarantee the support you're talking about, I might be willing to try."
+  },
+  {
+    "id": "adv-fallback-1",
+    "character": "any",
+    "state": "any",
+    "trigger_behavior": "any",
+    "text": "I don't trust what you're saying right now."
+  }
+]

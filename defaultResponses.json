@@ -1,0 +1,72 @@
+[
+  {
+    "id": "resp-def-1",
+    "character": "default",
+    "state": "defensive",
+    "trigger_behavior": "directive",
+    "text": "I can do that, but it feels like you're just telling me what to do without understanding the situation."
+  },
+  {
+    "id": "resp-def-2",
+    "character": "default",
+    "state": "defensive",
+    "trigger_behavior": "blaming",
+    "text": "It's not entirely my fault. There were other factors involved that I couldn't control."
+  },
+  {
+    "id": "resp-rec-1",
+    "character": "default",
+    "state": "receptive",
+    "trigger_behavior": "supportive",
+    "text": "Thanks, I really appreciate the support. It helps a lot."
+  },
+  {
+    "id": "resp-rec-2",
+    "character": "default",
+    "state": "receptive",
+    "trigger_behavior": "empathetic",
+    "text": "Exactly. That's exactly how I've been feeling about this whole thing."
+  },
+  {
+    "id": "resp-rec-3",
+    "character": "default",
+    "state": "receptive",
+    "trigger_behavior": "coaching",
+    "text": "That's a good point. I hadn't thought about it that way before."
+  },
+  {
+    "id": "resp-neu-1",
+    "character": "default",
+    "state": "neutral",
+    "trigger_behavior": "clarification",
+    "text": "To clarify, the main issue was the timeline slipping last week."
+  },
+  {
+    "id": "resp-neu-2",
+    "character": "default",
+    "state": "neutral",
+    "trigger_behavior": "vague",
+    "text": "I'm not sure I understand exactly what you mean. Could you be more specific?"
+  },
+  {
+    "id": "resp-def-3",
+    "character": "default",
+    "state": "defensive",
+    "trigger_behavior": "dismissive",
+    "text": "I feel like you're brushing off my concerns. This is a real problem."
+  },
+  {
+    "id": "resp-def-4",
+    "character": "default",
+    "state": "defensive",
+    "trigger_behavior": "directive",
+    "text": "Okay, I'll get it done. (Sighs) I'll make it the priority."
+  },
+  {
+    "id": "resp-gen-1",
+    "character": "default",
+    "state": "any",
+    "trigger_behavior": "any",
+    "text": "I see. Let's keep talking about this."
+  }
+]

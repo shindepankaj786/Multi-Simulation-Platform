@@ -1,0 +1,14 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+# Copy python dependencies
+COPY backend/requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy server code
+COPY backend/ai_server.py .
+
+EXPOSE 5000
+
+CMD ["python", "ai_server.py"]

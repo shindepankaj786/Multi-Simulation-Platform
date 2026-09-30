@@ -1,0 +1,22 @@
+FROM node:18-alpine
+
+WORKDIR /app
+
+# Copy backend dependencies
+COPY backend/package*.json ./backend/
+WORKDIR /app/backend
+RUN npm ci
+
+# Copy the rest of the application
+WORKDIR /app
+COPY backend/ ./backend/
+COPY frontend/ ./frontend/
+
+WORKDIR /app/backend
+
+# Initialize database (optional, depending on if it runs on start)
+RUN npm run migrate || true
+
+EXPOSE 3000
+
+CMD ["npm", "start"]

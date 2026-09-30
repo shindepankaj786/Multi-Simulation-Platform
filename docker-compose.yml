@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  node-backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.node
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - AI_HOST=python-ai
+      - AI_PORT=5000
+      - SESSION_SECRET=change_this_to_a_long_random_secret_in_production
+    volumes:
+      - db-data:/app/backend  # Persists the cornerstone.sqlite file
+    depends_on:
+      - python-ai
+
+  python-ai:
+    build:
+      context: .
+      dockerfile: Dockerfile.python
+    ports:
+      - "5000:5000"
+
+volumes:
+  db-data:

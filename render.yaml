@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: cornerstone-ai
+    env: python
+    buildCommand: "cd backend && pip install -r requirements.txt"
+    startCommand: "cd backend && python ai_server.py"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.0
+
+  - type: web
+    name: cornerstone-backend
+    env: node
+    buildCommand: "cd backend && npm install"
+    startCommand: "cd backend && npm start"
+    envVars:
+      - key: NODE_VERSION
+        value: 18.17.0
+      - key: AI_HOST
+        fromService:
+          type: web
+          name: cornerstone-ai
+          envVarKey: RENDER_INTERNAL_HOSTNAME
+      - key: AI_PORT
+        value: 10000
